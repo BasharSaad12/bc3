@@ -108,7 +108,7 @@ client.on('message', message => {
   } else 
   if (message.content.startsWith(adminprefix + 'setl')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.se(`**✅   ${argresult}**`)
   } else 
   if (message.content.startsWith(adminprefix + 'sets')) {
     client.user.setGame(argresult, "https://www.twitch.tv/dream");
@@ -125,4 +125,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login("NTQ0MzQ1MzIzMjQyMjU4NDMz.D0Jzew.awhdm2TbJuGa18jGRvzjggNnNzs");
+client.login("NTQ2OTM0MTg0OTgwMjUwNjQw.D00P-Q.KASxYaXxfFKEiH1XQn28c9yc_C8");
